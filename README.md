@@ -1,3 +1,20 @@
+> [!NOTE]
+> This fork contains some bugfixes, which have yet to be landed (see https://github.com/mike-north/vscode-tagged-templates/pull/9).
+>
+> Until that lands, you can get these fixes by running:
+>
+> ```sh
+> git clone -b bugfixes https://github.com/chrisdothtml/vscode-tagged-templates.git
+> cd vscode-tagged-templates
+> pnpm install
+> pnpm run build && pnpm run package
+> code --install-extension vscode-tagged-templates-*.vsix
+> ```
+>
+> Then reload VS Code. If you use Cursor or another VS Code fork, replace `code` with its CLI (e.g. `cursor`).
+
+---
+
 <div align="center">
   <img src="media/icon.png" alt="Tagged Templates Icon" width="128" height="128">
   <h1>Tagged Templates</h1>
